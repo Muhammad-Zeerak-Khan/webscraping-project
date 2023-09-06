@@ -1,0 +1,26 @@
+gift card is a webapp which helps users to redeem their git cards and vouchers etc
+
+
+1st step:
+Manaully collect gift cards , they can be multi gift card as well
+and populate data related to this gift card like links, icon , description etc
+
+2nd step:
+These links will be then used for web scraping 
+to extract names , websites ,brand search tags and 
+sub categories of the brands
+(Python web scraping has limitations of tokens, after that
+you need to buy these tokens to continue scraping)
+
+3rd step:
+Standarize the different names of the brands to maintain consistency.
+(This can be done very easily with python and pandas)
+
+4th step:
+Tie the brands with stores where the brands products will be available
+The stores will be scraped by google maps
+
+5th step:
+A benefits table which will act as the intersection table
+between the card and brand. It will also ave information
+about the store schedule etc
